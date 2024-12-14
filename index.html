@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    </style>
+  </head>
+  <body>
+    <div class="w-screen min-h-screen h-fit bg-[#090b1a] px-7 flex justify-center items-center text-[15px] py-10">
+      <div class="bg-[#1b1938]  font-inter rounded-md flex flex-col items-center max-w-[654px] lg:flex-row-reverse lg:max-w-[1000px] lg:max-h-[412.95px] ">
+
+        <div class="relative after:absolute after:inset-0 after:bg-[#aa5cdba4] after:mix-blend-hard-light after:rounded-t-md">
+          <div class="content-backgroundImageMobile lg:content-backgroundImageDesktop max-lg:rounded-t-md lg:rounded-r-md w-full lg:w-[500px] grayscale"></div>
+        </div>
+        <div class="px-7 pt-10 pb-9 max-lg:text-center flex flex-col gap-8 lg:px-14 lg:justify-start lg:gap-10">
+          <div class="flex flex-col items-center gap-4">
+            <div class="text-white font-bold text-[1.5rem] lg:text-[2.1rem] font-lexend">Get <span class="text-[#aa5cdb]">insights</span> that help your business grow.</div>
+            <div class="text-mainParagraph lg:pr-13 sm:px-6 lg:px-0">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall eficiency.</div>
+          </div>
+          <div class="flex flex-col items-center gap-8 lg:gap-16 font-lexend lg:flex-row">
+            <div class="flex flex-col gap-1">
+              <div class="text-white text-[1.5rem]">10k+</div>
+              <div class="text-statHeadings text-[0.8rem]">COMPANIES</div>
+            </div>
+
+            <div class="flex flex-col gap-1">
+              <div class="text-white text-[1.5rem]">314</div>
+              <div class="text-statHeadings text-[0.8rem]">TEMPLATES</div>
+            </div>
+
+            <div class="flex flex-col gap-1">   
+              <div class="text-white text-[1.5rem]">12M+</div>
+              <div class="text-statHeadings text-[0.8rem]">QUERIES</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
